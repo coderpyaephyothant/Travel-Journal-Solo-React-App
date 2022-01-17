@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.Page {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+
+.navBar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 550px;
+    height: 55px;
+    gap:7px;
+    background-color: #F55A5A;
+    align-self: center;
+}
+.gg {
+    color: white;
+    font-size: 20px;
+}
+.Nav-Text{
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: white;
+    max-width: 190px;
+    
+}
+.CardContainer{
+    max-width: 550px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    padding-bottom: 18px;
+    align-self: center;
+}
+
+.card-BorderLine{
+background-color: gray;
+height: 1px;
+margin-left: 40px;
+width: 480px;
+
+
+}
+.info-Container {
+    margin-left: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px
+    
+}
+.fuji{
+    max-width:135px ;
+    height:190px ;
+    border-radius: 8px
+}
+.info-Paragraph {
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align:justify;
+}
+.info-SecondLine {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: Inter;
+    margin-bottom: 13px;
+}
+.location {
+    font-size: 5px;
+    color: palevioletred;
+    margin-right: 4px;
+}
+.info-Japan {
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-right: 12px;
+}
+.info-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+.info-Date {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-bottom: 9px;
+}
